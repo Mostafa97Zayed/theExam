@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static String theQueue(int n, String s) {
-        
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < s.length() - 1; j++) {
                 if (s.charAt(j) == 'B' && s.charAt(j + 1) == 'G') {
